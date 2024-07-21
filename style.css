@@ -1,6 +1,41 @@
-body
-{
- background-image: url("Hero.png");
- background-repeat: no-repeat;
- background-size: cover;
+body {
+    background-image: url("Hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    overflow-x: hidden;
+
+}
+
+.navbar {
+    width: 1440px;
+    height: 96px;
+    padding: 15px 98px 32px 98px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+
+}
+
+#logo {
+    width: 272.61px;
+    height: 32px;
+}
+
+.copy {
+
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    gap: 15px;
 }
