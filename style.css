@@ -85,7 +85,7 @@ ul {
 .planets {
     min-width: 500%;
     position: relative;
-    top: -400px;
+    top: -880px;
 }
 
 #right {
@@ -98,7 +98,7 @@ ul {
 #Earth {
     width: 196.5px;
     position: relative;
-    top: -600px;
+    top: -620px;
     right: -120px;
     margin-left: 900px;
     z-index: -1;
@@ -107,8 +107,8 @@ ul {
 #green {
     width: 126px;
     position: relative;
-    top: -1100px;
-    right:-100px;
+    top: -1200px;
+    right: -100px;
 }
 
 .heading {
@@ -122,10 +122,28 @@ ul {
     bottom: -300px;
     right: -300px;
     width: 2000px;
-    height: 500px;
+    height: 1000px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+
+}
+
+.text {
+    /* bottom: -1000px;
+    right: -500px; */
+    width: 2000px;
+    height: 500px;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFF;
+   
+
 
 }
