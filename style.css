@@ -1,17 +1,21 @@
 body {
     background-image: url("Hero.png");
-    /* background-repeat: no-repeat; */
-    background-size: cover, contain;
-    overflow-x: hidden;
     zoom: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow-x: hidden;
+   
+   
+   
 }
 
 .navbar {
     width: 2880px;
-    height: 96px;
+   
     padding: 15px 98px 32px 98px;
     display: flex;
-    gap: 200px;
+    gap: 220px;
     align-items: center;
 
 }
@@ -44,32 +48,64 @@ ul {
     text-align: center;
 
 }
-
-#bottomPlanet {
-    position: relative;
-    left: 200px;
-
-}
-
-#rightBottom {
-    position: relative;
-    left: 587px;
-
-}
-
-#small {
-    position: relative;
-
-}
-
-/* #left,#saturn
+#left
 {
+   width:270px;
+   position: relative;
+   top:-500px;
+
+}
+#saturn
+{
+    width:550px;
     position: relative;
-    bottom: -50px;
-} */
-#small {
-    width: 166px;
-    height: 169.93px;
-
-
+    top:-400px;
+   
+}
+#small
+{  
+    width: 288px;
+    position: relative;
+    top:-720px;
+   
+}
+#bottomPlanet
+{  margin-left: 900px;
+    width: 339px;
+    position: relative;
+    top:-720px;
+   
+   
+}
+#rightBottom
+{   margin-left: 410px;
+    width: 782px;
+    position: relative;
+    top:-720px;
+   
+}
+.planets
+{
+    min-width:500%;
+    margin: 0;
+}
+#right
+{
+    margin-left: 840px;
+    width:510px;
+    position: relative;
+   
+}
+#Earth
+{
+    width: 196.5px;
+    position: relative;
+    top:-550px;
+    margin-left: 900px;
+}
+#green
+{
+    width:126px;
+    position: relative;
+    top:-900px;
 }
