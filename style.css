@@ -85,7 +85,7 @@ ul {
 .planets {
     min-width: 500%;
     position: relative;
-    top: -880px;
+    top: -1080px;
 }
 
 #right {
@@ -107,7 +107,7 @@ ul {
 #green {
     width: 126px;
     position: relative;
-    top: -1200px;
+    top: -1000px;
     right: -100px;
 }
 
@@ -122,7 +122,7 @@ ul {
     bottom: -300px;
     right: -300px;
     width: 2000px;
-    height: 1000px;
+    height: 1200px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -143,6 +143,31 @@ ul {
     line-height: 24px;
     text-align: center;
     color: #FFFF;
+
+
+
+}
+
+button {
+    position: relative;
+    top: -350px;
+    width: 492px;
+    height: 176px;
+    padding: 28px 40px 28px 40px;
+    gap: 16px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    right: -800px;
+
+    font-family: "Orbitron";
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #FFFF;
+    background-image:  linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
+
    
 
 
