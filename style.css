@@ -1,18 +1,13 @@
 body {
     background-image: url("Hero.png");
-    zoom: 50%;
-    background-size: contain;
     background-repeat: no-repeat;
     margin: 0;
+    zoom: 50%;
     overflow-x: hidden;
-   
-   
-   
 }
 
 .navbar {
     width: 2880px;
-   
     padding: 15px 98px 32px 98px;
     display: flex;
     gap: 220px;
@@ -48,64 +43,89 @@ ul {
     text-align: center;
 
 }
-#left
-{
-   width:270px;
-   position: relative;
-   top:-500px;
+
+#left {
+    width: 270px;
+    position: relative;
+    top: -500px;
 
 }
-#saturn
-{
-    width:550px;
+
+#saturn {
+    width: 550px;
     position: relative;
-    top:-400px;
-   
+    top: -400px;
+
 }
-#small
-{  
+
+#small {
     width: 288px;
     position: relative;
-    top:-720px;
-   
+    top: -720px;
+
 }
-#bottomPlanet
-{  margin-left: 900px;
+
+#bottomPlanet {
+    margin-left: 900px;
     width: 339px;
     position: relative;
-    top:-720px;
-   
-   
+    top: -720px;
+
+
 }
-#rightBottom
-{   margin-left: 410px;
+
+#rightBottom {
+    margin-left: 410px;
     width: 782px;
     position: relative;
-    top:-720px;
-   
+    top: -720px;
+
 }
-.planets
-{
-    min-width:500%;
-    margin: 0;
-}
-#right
-{
-    margin-left: 840px;
-    width:510px;
+
+.planets {
+    min-width: 500%;
     position: relative;
-   
+    top: -400px;
 }
-#Earth
-{
+
+#right {
+    margin-left: 840px;
+    width: 510px;
+    position: relative;
+
+}
+
+#Earth {
     width: 196.5px;
     position: relative;
-    top:-550px;
+    top: -600px;
+    right: -120px;
     margin-left: 900px;
+    z-index: -1;
 }
-#green
-{
-    width:126px;
+
+#green {
+    width: 126px;
     position: relative;
-    top:-900px;
+    top: -1100px;
+    right:-100px;
+}
+
+.heading {
+    color: #FFFF;
+
+    font-family: "Orbitron";
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 126px;
+    position: relative;
+    bottom: -300px;
+    right: -300px;
+    width: 2000px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
