@@ -24,7 +24,7 @@ body {
 
     font-family: "Inter";
     font-size: 32px;
-    font-weight: 1000;
+    font-weight: 600;
     line-height: 48px;
     color: white;
 
@@ -38,7 +38,7 @@ ul {
 
     font-family: Inter;
     font-size: 32px;
-    font-weight: 1000;
+    font-weight: 600;
     line-height: 48px;
     text-align: center;
 
@@ -107,7 +107,7 @@ ul {
 #green {
     width: 126px;
     position: relative;
-    top: -1000px;
+    top: -1200px;
     right: -100px;
 }
 
@@ -143,6 +143,8 @@ ul {
     line-height: 24px;
     text-align: center;
     color: #FFFF;
+    position: relative;
+    bottom: -50px;
 
 
 
@@ -167,8 +169,14 @@ button {
     text-align: center;
     color: #FFFF;
     background-image:  linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
-
-   
-
-
+}
+.Sun
+{
+    background-image: url("Sun.png");
+    position: relative;
+    top: -1810px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5000px;
+    height: 2600px ;
 }
