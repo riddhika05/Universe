@@ -1,34 +1,32 @@
 body {
     background-image: url("Hero.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-width: 100%;
+    /* background-repeat: no-repeat; */
+    background-size: cover, contain;
     overflow-x: hidden;
-
+    zoom: 50%;
 }
 
 .navbar {
-    width: 1440px;
+    width: 2880px;
     height: 96px;
     padding: 15px 98px 32px 98px;
     display: flex;
-    gap: 100px;
+    gap: 200px;
     align-items: center;
 
 }
 
 #logo {
-    width: 272.61px;
-    height: 32px;
+    width: 545.22px;
+    height: 64px;
 }
 
 .copy {
 
     font-family: "Inter";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
+    font-size: 32px;
+    font-weight: 1000;
+    line-height: 48px;
     color: white;
 
 }
@@ -37,5 +35,41 @@ ul {
     display: flex;
     list-style-type: none;
     color: white;
-    gap: 15px;
+    gap: 30px;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 1000;
+    line-height: 48px;
+    text-align: center;
+
+}
+
+#bottomPlanet {
+    position: relative;
+    left: 200px;
+
+}
+
+#rightBottom {
+    position: relative;
+    left: 587px;
+
+}
+
+#small {
+    position: relative;
+
+}
+
+/* #left,#saturn
+{
+    position: relative;
+    bottom: -50px;
+} */
+#small {
+    width: 166px;
+    height: 169.93px;
+
+
 }
