@@ -435,3 +435,38 @@ button {
     top:-150px;
 
 }
+.mer_head2
+{
+    position: relative;
+    color: #FFFF;
+    font-family: "Orbitron";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    right: -200px;
+    top: -150px;
+
+}
+.thermo2
+{
+    width:78px;
+    height: 170px;
+    position: relative;
+    bottom: -60px;
+    right: -60px;
+}
+.mer_text2
+{
+    
+font-family: "Orbitron";
+font-size: 76px;
+font-weight: 900;
+line-height: 96px;
+letter-spacing: -0.02em;
+text-align: left;
+position: relative;
+right:-180px;
+top:-140px;
+
+}
