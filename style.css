@@ -213,7 +213,7 @@ button {
 .sun_subtext {
     color: #FFFF;
     font-family: "Inter";
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 24px;
     text-align: left;
@@ -224,4 +224,101 @@ button {
     flex-direction: column;
     justify-content: space-between;
 
+}
+
+.cards {
+    display: flex;
+    gap: 48px;
+
+
+
+
+}
+
+.card1,
+.card2 {
+    width: 400px;
+    height: 176px;
+    padding: 24px 40px 24px 40px;
+    border-radius: 32px;
+    border: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-image: radial-gradient(110.92% 172.47% at 91.09% 101.78%, #430E49 0.53%, #370D44 32.06%, #170B36 89.03%, #100A33 100%);
+    position: relative;
+    bottom: -200px;
+    border: 6px solid;
+
+    border-image-source: radial-gradient(110.92% 172.47% at 91.09% 101.78%, #170B36 0%, #100A33 11.98%, #370D44 46.35%, #430E49 89.06%);
+
+
+
+}
+
+.card1_head,
+.card2_head {
+    color: #FFFF;
+    font-family: "Orbitron";
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: left;
+
+
+}
+
+.card1_head {
+    position: relative;
+    right: -150px;
+    top: -120px;
+}
+
+.card2_head {
+    position: relative;
+    right: -150px;
+    top: -120px;
+
+
+}
+
+.donut {
+    position: relative;
+    bottom: -30px;
+    width: 120px;
+    height: 120px;
+
+}
+
+.card1_text {
+    color: #FFFF;
+    font-family: "Orbitron";
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    position: relative;
+    right: -150px;
+    top: -90px;
+
+}
+
+.thermo {
+    position: relative;
+    bottom: -30px;
+    right: -50px;
+    width: 51px;
+    height: 120px;
+}
+
+.card2_text {
+    color: #FFFF;
+    font-family: "Orbitron";
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    position: relative;
+    right: -150px;
+    top: -90px;
 }
