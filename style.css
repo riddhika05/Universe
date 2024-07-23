@@ -322,24 +322,43 @@ button {
     right: -150px;
     top: -90px;
 }
-.Mercury
-{
+
+.Mercury {
     position: relative;
     top: -1806px;
     background-repeat: no-repeat;
     width: 2750px;
-    height: 1800px; 
+    height: 1800px;
 }
-.mercury_bg
-{
+
+.mercury_bg {
     width: 100%;
     height: 100%;
 }
-.MERCURY
-{
+
+.MERCURY {
     position: relative;
     top: -1700px;
-    width:1024px;
+    width: 1024px;
     height: 1412px;
+
+}
+
+.container {
+    position: relative;
+    top: -3000px;
+    right: -1200px;
+    color: #FFFF;
+}
+
+.Mercury_heading {
+    color: #FFFF;
+    font-family: "Orbitron";
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    text-align: left;
     
+
 }
