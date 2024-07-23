@@ -1,7 +1,6 @@
 body {
-    background-image: url("Hero.png");
-    background-repeat: no-repeat;
-    margin: 0;
+   
+    margin: 0; 
     zoom: 50%;
     overflow-x: hidden;
 }
@@ -797,4 +796,24 @@ bottom: -40px;
     width: 120px;
     height: 120px;
     bottom: -60px;
+}
+.hero_bg
+{
+    position: relative;
+    /* top: -1806px; */
+    background-repeat: no-repeat;
+    width: 2750px;
+    height: 2100px;
+
+
+}
+.hero
+{
+    position: relative;
+    top: -2053px;
+}
+.box
+{
+    position: relative;
+    top:-2052px;
 }
