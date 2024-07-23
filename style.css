@@ -168,26 +168,60 @@ button {
     letter-spacing: -0.02em;
     text-align: center;
     color: #FFFF;
-    background-image:  linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
+    background-image: linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
 }
-.Sun
-{
-  
+
+.Sun {
+
     position: relative;
     top: -1806px;
     background-repeat: no-repeat;
     width: 2750px;
-    height: 1800px ;
+    height: 1800px;
 }
-.sun_bg
-{
+
+.sun_bg {
     width: 100%;
-    height: 100% ;
+    height: 100%;
 
 }
-.SUN
-{   position: relative;
+
+.SUN {
+    position: relative;
     top: -1806px;
     right: -10px;
     width: 2710px;
+}
+
+.sun_heading {
+    color: #FFFF;
+    font-family: "Orbitron";
+    font-size: 134px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.sun_text {
+    position: relative;
+    top: -1830px;
+    right: -340px;
+}
+
+.sun_subtext {
+    color: #FFFF;
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    position: relative;
+    bottom: -80px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
