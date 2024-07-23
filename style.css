@@ -504,6 +504,7 @@ button {
     top: -130px;
 
 }
+
 .Venus {
     position: relative;
     top: -1806px;
@@ -516,8 +517,8 @@ button {
     width: 100%;
     height: 100%;
 }
-.Venus_img
-{
+
+.Venus_img {
     width: 1646px;
     height: 1570px;
     position: relative;
@@ -525,33 +526,120 @@ button {
     top: -1573px;
 
 }
-.ve_container
-{
+
+.ve_container {
     position: relative;
-    top:-2900px;
-    right:-200px;
+    top: -2900px;
+    right: -200px;
     color: #fff;
 }
-.ve_head
+
+.ve_head {
+
+    font-family: "Orbitron";
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.ve_text {
+
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    position: relative;
+    bottom: -150px;
+
+}
+
+.ve_card1,
+.ve_card2 {
+    width: 528px;
+    height: 264px;
+    padding: 24px 40px 24px 40px;
+    gap: 24px;
+    border-radius: 32px ;
+    border: 4px 0px 0px 0px;
+    opacity: 0px;
+    background: radial-gradient(110.92% 172.47% at 91.09% 101.78%, #430E49 0.53%, #370D44 32.06%, #170B36 89.03%, #100A33 100%);
+    border: 4px solid;
+
+    border-image-source: radial-gradient(110.92% 172.47% at 91.09% 101.78%, #170B36 0%, #100A33 11.98%, #370D44 46.35%, #430E49 89.06%);
+    position: relative;
+    bottom:-300px;
+    margin-bottom:50px;
+
+
+
+}
+.ve_card_head1
+{
+    font-family: "Orbitron";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    position: relative;
+    right: -190px;
+    top: -110px;
+}
+.ve_card_head2
+{
+    font-family: "Orbitron";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    position: relative;
+    right: -160px;
+    top: -130px;
+}
+.donut3
+{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    bottom: -70px;
+}
+.ve_card_text1
 {
     
 font-family: "Orbitron";
-font-size: 120px;
+font-size: 57px;
 font-weight: 900;
 line-height: 80px;
 letter-spacing: -0.02em;
 text-align: left;
+position: relative;
+right: -200px;
+top:-100px;
 
 }
-.ve_text
+.thermo3
 {
-   
-font-family:"Inter";
-font-size: 30px;
-font-weight: 500;
-line-height: 50px;
+    position: relative;
+    width: 68px;
+    height: 160px;
+    bottom:-60px;
+    right: -20px;
+
+}
+.ve_card_text2
+{
+    
+font-family: "Orbitron";
+font-size: 57px;
+font-weight: 900;
+line-height: 80px;
+letter-spacing: -0.02em;
 text-align: left;
 position: relative;
-bottom: -150px;
+right: -150px;
+top:-120px;
 
 }
