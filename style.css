@@ -525,3 +525,33 @@ button {
     top: -1573px;
 
 }
+.ve_container
+{
+    position: relative;
+    top:-2900px;
+    right:-200px;
+    color: #fff;
+}
+.ve_head
+{
+    
+font-family: "Orbitron";
+font-size: 120px;
+font-weight: 900;
+line-height: 80px;
+letter-spacing: -0.02em;
+text-align: left;
+
+}
+.ve_text
+{
+   
+font-family:"Inter";
+font-size: 30px;
+font-weight: 500;
+line-height: 50px;
+text-align: left;
+position: relative;
+bottom: -150px;
+
+}
