@@ -354,11 +354,26 @@ button {
 .Mercury_heading {
     color: #FFFF;
     font-family: "Orbitron";
-    font-size: 80px;
+    font-size: 100px;
     font-weight: 900;
     line-height: 80px;
     letter-spacing: -0.02em;
     text-align: left;
+    position: relative;
+    bottom: -50px;
     
+
+
+}
+
+.mercury_subtext {
+    color: #FFFF;
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: left;
+    position: relative;
+    bottom: -120px;;
 
 }
