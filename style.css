@@ -845,3 +845,10 @@ bottom: -40px;
     height: 1800px;
     bottom: -2000px;
 }
+.Mars_img
+{
+    position: relative;
+    top:-935px;
+    width: 1108px;
+    height: 932px;
+}
