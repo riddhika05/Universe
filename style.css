@@ -1,8 +1,9 @@
 body {
-   
-    margin: 0; 
     zoom: 50%;
     overflow-x: hidden;
+    margin: 0;
+    /* height: 100vh; */
+    /* height: 100vh!important;  */
 }
 
 .navbar {
@@ -816,4 +817,31 @@ bottom: -40px;
 {
     position: relative;
     top:-2052px;
+   margin-bottom:-6000px;
+}
+.Mars_bg
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.Mars{
+    position: relative;
+    background-repeat: no-repeat;
+    width: 2750px;
+    height: 1800px;
+    bottom: -2000px;
+}
+.Jupiter_bg
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.Jupiter{
+    position: relative;
+    background-repeat: no-repeat;
+    width: 2750px;
+    height: 1800px;
+    bottom: -2000px;
 }
