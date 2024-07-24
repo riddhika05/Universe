@@ -852,3 +852,11 @@ bottom: -40px;
     width: 1108px;
     height: 932px;
 }
+.arrow2
+{
+    position: relative;
+    top: -1600px;
+   left:-100px;
+    width: 156px;
+    height:106px ;
+}
