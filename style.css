@@ -718,40 +718,41 @@ button {
     bottom: -70px;
 
 }
-.moon_text
-{
+
+.moon_text {
     position: relative;
-    top:-3800px;
+    top: -3800px;
     /* right: -1200px; */
     color: #FFFF;
 }
-.moon_head
-{ 
-font-family: "Orbitron";
-font-size: 76px;
-font-weight: 900;
-line-height: 48px;
-letter-spacing: -0.02em;
-text-align: right;
-color: #FFFF;
-position: relative;
-left: -1000px;
+
+.moon_head {
+    font-family: "Orbitron";
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: right;
+    color: #FFFF;
+    position: relative;
+    left: -1000px;
 }
-.moon_content
-{
-    
-font-family: "Inter";
-font-size: 30px;
-font-weight: 500;
-line-height: 48px;
-text-align: right;
-position: relative;
-left: -1000px;
-bottom: -40px;
+
+.moon_content {
+
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: right;
+    position: relative;
+    left: -1000px;
+    bottom: -40px;
 
 }
-.Earth_card
-{   color: #FFFF;
+
+.Earth_card {
+    color: #FFFF;
     width: 528px;
     height: 264px;
     padding: 24px 40px 24px 40px;
@@ -764,22 +765,23 @@ bottom: -40px;
 
     border-image-source: radial-gradient(110.92% 172.47% at 91.09% 101.78%, #170B36 0%, #100A33 11.98%, #370D44 46.35%, #430E49 89.06%);
     position: relative;
-    top:-4400px;
-    right:-2000px;
+    top: -4400px;
+    right: -2000px;
 
 }
-.e_card_head
-{
+
+.e_card_head {
     font-family: "Orbitron";
     font-size: 30px;
     font-weight: 900;
     line-height: 48px;
     text-align: left;
     position: relative;
-    top:-110px;
+    top: -110px;
     right: -150px;
 }
-.e_card_text{
+
+.e_card_text {
     font-family: "Orbitron";
     font-size: 57px;
     font-weight: 900;
@@ -787,19 +789,19 @@ bottom: -40px;
     letter-spacing: -0.02em;
     text-align: left;
     position: relative;
-    right:-150px;
+    right: -150px;
     top: -100px;
 
 }
-.donut4
-{
+
+.donut4 {
     position: relative;
     width: 120px;
     height: 120px;
     bottom: -60px;
 }
-.hero_bg
-{
+
+.hero_bg {
     position: relative;
     /* top: -1806px; */
     background-repeat: no-repeat;
@@ -808,55 +810,111 @@ bottom: -40px;
 
 
 }
-.hero
-{
+
+.hero {
     position: relative;
     top: -2053px;
 }
-.box
-{
+
+.box {
     position: relative;
-    top:-2052px;
-   margin-bottom:-6000px;
+    top: -2052px;
+    margin-bottom: -6000px;
 }
-.Mars_bg
-{
+
+.Mars_bg {
     width: 100%;
     height: 100%;
     position: relative;
 }
-.Mars{
+
+.Mars {
     position: relative;
     background-repeat: no-repeat;
     width: 2750px;
     height: 1800px;
     bottom: -2000px;
 }
-.Jupiter_bg
-{
+
+.Jupiter_bg {
     width: 100%;
     height: 100%;
     position: relative;
 }
-.Jupiter{
+
+.Jupiter {
     position: relative;
     background-repeat: no-repeat;
     width: 2750px;
     height: 1800px;
     bottom: -2000px;
 }
-.Mars_img
-{
+
+.Mars_img {
     position: relative;
-    top:-935px;
+    top: -935px;
     width: 1108px;
     height: 932px;
 }
-.arrow2
-{
+
+.arrow2 {
     position: relative;
     top: -1600px;
-   left:-100px;
+    left: -100px;
     width: 156px;
-    height:106px ;
+    height: 106px;
+}
+
+.Mars_text {
+    color: #FFFF;
+    position: relative;
+    top: -2500px;
+    right: -200px;
+}
+
+.Mars_head {
+
+    font-family: "Orbitron";
+    font-size: 134px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.Mars_subtext {
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    position: relative;
+    bottom: -100px;
+
+}
+
+.marsMoonHead {
+    font-family: "Orbitron";
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    position: relative;
+    right: -1100px;
+    bottom: -700px;
+
+}
+
+.marsMoonText {
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    position: relative;
+    right: -1100px;
+    bottom: -750px;
+
 }
