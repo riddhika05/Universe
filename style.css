@@ -1,11 +1,11 @@
 body {
-    zoom: 50%;
+    zoom: 45%;
     overflow-x: hidden;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000000;
+    background-color: #0a0330;
     /* height: 100vh; */
     /* height: 100vh!important;  */
 }
@@ -108,30 +108,30 @@ ul {
 #Earth {
     width: 196.5px;
     position: relative;
-    top: -620px;
-    /* right: -10px; */
+    top: -580px;
+    right: -200px;
     margin-left: 900px;
-    left: -30px;
+    /* left: -30px; */
 
 }
 
 #green {
     width: 126px;
     position: relative;
-    top: -1200px;
-    right: -100px;
+    top: -1060px;
+    left: -10px;
 }
 
 .heading {
     color: #FFFF;
 
     font-family: "Orbitron";
-    font-size: 120px;
+    font-size: 150px;
     font-weight: 900;
-    line-height: 126px;
+    line-height: 210px;
     position: relative;
     bottom: -300px;
-    right: -300px;
+    right: -500px;
     width: 2000px;
     height: 1200px;
     text-align: center;
@@ -150,13 +150,13 @@ ul {
     height: 500px;
     text-align: center;
     font-family: "Inter";
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 45px;
     text-align: center;
     color: #FFFF;
     position: relative;
-    bottom: -50px;
+    bottom: -120px;
 
 
 
@@ -164,7 +164,7 @@ ul {
 
 button {
     position: relative;
-    top: -350px;
+    top: -100px;
     width: 492px;
     height: 176px;
     padding: 28px 40px 28px 40px;
