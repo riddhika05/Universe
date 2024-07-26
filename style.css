@@ -781,6 +781,22 @@ li:hover
     width: 340px;
     height: 374px;
 }
+.rocket.show
+{
+  animation: takeoff 2s ease 1s  backwards;
+}
+@keyframes takeoff {
+    from
+    {
+        transform: translate(-500px,350px);
+        
+    }
+    to
+    {
+       transform: translate(0px);
+    }
+    
+}
 
 .arrow {
     position: relative;
