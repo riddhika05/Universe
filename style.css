@@ -1317,3 +1317,35 @@ a:visited
 {
     color:darkturquoise;
 }
+.popup
+{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(185, 194, 250);
+    position:relative;
+    bottom:-50px;
+    right:-900px;
+    
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right : 10px;
+    font-size: 45px;
+    font-weight: 900;
+    border-radius: 25px;
+    transform: scale(0);
+    pointer-events: none;
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+.Subscription
+{
+    position: relative;
+    bottom: -50px;
+}
+.popup.active
+{
+    transform:  scale(1);
+    opacity: 1;
+}

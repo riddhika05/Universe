@@ -8,3 +8,10 @@ const observer= new IntersectionObserver(entries=>{
     })
 },{threshold:0.2,})
 planets.forEach(planet=>{observer.observe(planet);})
+const subs=document.querySelector(".subscribe");
+const popup=document.querySelector(".popup");
+function pop()
+{   
+    popup.classList.add('active');
+}
+subs.addEventListener('click', pop)
