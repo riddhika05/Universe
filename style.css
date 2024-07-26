@@ -10,6 +10,7 @@ body {
     /* height: 100vh!important;  */
 }
 
+
 .navbar {
     width: 2880px;
     padding: 15px 98px 32px 98px;
@@ -49,7 +50,10 @@ ul {
     text-align: center;
 
 }
-
+li:hover
+{
+    transform: translateY(-10px);
+}
 #left {
     width: 270px;
     position: relative;
@@ -74,19 +78,10 @@ ul {
     position: relative;
     top: -720px;
     left: -25px;
+    transition: all 0.3s;
 
 }
-/* @keyframes movedown
-{
-    from
-    {
-        transform: translateY(100px);
-    }
-    to
-    {
-        transform: translateY(0px);
-    }
-} */
+
 
 #bottomPlanet {
     margin-left: 900px;
@@ -125,6 +120,9 @@ ul {
     top: -580px;
     right: -200px;
     margin-left: 900px;
+    animation-name:Rotate;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
     /* left: -30px; */
 
 }
@@ -135,8 +133,42 @@ ul {
     top: -1060px;
     left: -10px;
 }
+@keyframes Rotate {
+    from
+    {
+        transform: rotateY(0deg);
+    }
+    to
+    {
+        transform: rotateY(180deg);
+    }
+    
+}
+#green.show
+{
+    animation-name:Rotate;
+    animation-duration: 5s;
+    animation-fill-mode: both;
 
-.heading {
+}
+.rec.show,#small.show
+{
+    animation-name:big;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+}
+@keyframes big {
+   from{
+    opacity: 0 ;
+   }
+   to
+   {
+   opacity: 1;;
+   }
+    
+}
+.heading { 
     color: #FFFF;
 
     font-family: "Orbitron";
