@@ -151,7 +151,7 @@ li:hover
 .rec.show,#small.show
 {
     animation-name:fade;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: backwards;
     animation-timing-function: linear;
 }
@@ -253,10 +253,13 @@ li:hover
     top: -1806px;
     right: -5px;
     width: 2740px;
+    box-shadow: 0px ;
 }
+
+
 .sun_text.show
 {
-  animation: grow 5s forwards ease-out;
+  animation: grow 2s forwards ease-out;
 }
 @keyframes grow {
     from
