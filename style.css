@@ -73,13 +73,9 @@ li:hover
 
 #small {
     width: 288px;
-    animation-name:movedown;
-    animation-duration: 5000ms;
-    animation-fill-mode: forwards;
     position: relative;
     top: -720px;
     left: -25px;
-    transition: all 0.3s;
 
 }
 
@@ -122,7 +118,7 @@ li:hover
     right: -200px;
     margin-left: 900px;
     animation-name:Rotate;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
     /* left: -30px; */
 
@@ -148,18 +144,18 @@ li:hover
 #green.show
 {
     animation-name:Rotate;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-fill-mode: both;
 
 }
 .rec.show,#small.show
 {
-    animation-name:big;
-    animation-duration: 5s;
+    animation-name:fade;
+    animation-duration: 2s;
     animation-fill-mode: backwards;
     animation-timing-function: linear;
 }
-@keyframes big {
+@keyframes fade {
    from{
     opacity: 0 ;
    }
@@ -257,6 +253,20 @@ li:hover
     top: -1806px;
     right: -5px;
     width: 2740px;
+}
+.sun_text.show
+{
+  animation: grow 5s forwards ease-out;
+}
+@keyframes grow {
+    from
+    {
+        transform: scale(1.09);
+    }
+    to{
+        transform: scale(1);
+    }
+    
 }
 
 .sun_heading {
