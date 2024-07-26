@@ -1334,9 +1334,9 @@ a:visited
     font-weight: 900;
     border-radius: 25px;
     transform: scale(0);
-    pointer-events: none;
     margin-left: 200px;
     margin-top: 50px;
+    pointer-events: none;
 
 }
 .Subscription
@@ -1348,4 +1348,5 @@ a:visited
 {
     transform:  scale(1);
     opacity: 1;
+    pointer-events: all;
 }

@@ -10,8 +10,15 @@ const observer= new IntersectionObserver(entries=>{
 planets.forEach(planet=>{observer.observe(planet);})
 const subs=document.querySelector(".subscribe");
 const popup=document.querySelector(".popup");
+const input=document.querySelector("input");
 function pop()
-{   
+{   if(input.value!='')
     popup.classList.add('active');
 }
-subs.addEventListener('click', pop)
+function rem()
+{
+    popup.classList.remove('active');
+}
+subs.addEventListener('click', pop);
+subs.addEventListener('mouseout', rem);
+
