@@ -148,7 +148,7 @@ li:hover
     animation-fill-mode: both;
 
 }
-.rec.show,#small.show
+.identify.show,#small.show
 {
     animation-name:fade;
     animation-duration: 3s;
@@ -257,7 +257,7 @@ li:hover
 }
 
 
-.sun_text.show
+.sun_text.show.rec
 {
   animation: grow 2s forwards ease-out;
 }
@@ -423,6 +423,18 @@ li:hover
 
 }
 
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    0%{
+        transform: translate(0);
+    }
+    
+}
 .container {
     position: relative;
     top: -3000px;
@@ -482,6 +494,12 @@ li:hover
     border-image-source: radial-gradient(110.92% 172.47% at 91.09% 101.78%, #170B36 0%, #100A33 11.98%, #370D44 46.35%, #430E49 89.06%);
 }
 
+@keyframes wobble {
+    0%, 100% {transform: translate(0);}
+	10%, 30%, 50%, 70%, 90% {transform: translate(-10px);}
+	20%, 40%, 60%, 80% {transform: translate(10px); } 
+    
+}
 .mer_head1 {
     position: relative;
     color: #FFFF;
