@@ -68,11 +68,25 @@ ul {
 
 #small {
     width: 288px;
+    animation-name:movedown;
+    animation-duration: 5000ms;
+    animation-fill-mode: forwards;
     position: relative;
     top: -720px;
     left: -25px;
 
 }
+/* @keyframes movedown
+{
+    from
+    {
+        transform: translateY(100px);
+    }
+    to
+    {
+        transform: translateY(0px);
+    }
+} */
 
 #bottomPlanet {
     margin-left: 900px;
@@ -162,7 +176,7 @@ ul {
 
 }
 
-button {
+.learn {
     position: relative;
     top: -100px;
     width: 492px;
@@ -181,6 +195,13 @@ button {
     text-align: center;
     color: #FFFF;
     background-image: linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
+    transition : transform 0.3s ,font-size 0.3s;
+}
+.learn:hover{
+    transform: translateY(-10px);
+    font-size: 50px;
+  
+
 }
 
 .Sun {
@@ -1143,6 +1164,7 @@ button {
     font-weight: 900;
     line-height: 60px;
     text-align: left;
+    min-width: 20%;
 
 
 
@@ -1167,11 +1189,14 @@ input:focus {
 }
 .whiteButton
 {
-    width:55px
+    width:55px;
+    position: relative;
+    top:-60px;
+    right:-185px;
 }
 .subsText{
     position: relative;
-    top:-15px;
+    
 }
 .navbar2
 {
