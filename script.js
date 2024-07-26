@@ -4,9 +4,7 @@ const observer= new IntersectionObserver(entries=>{
         console.log(entry);
         if(entry.isIntersecting)
             {observer.unobserve(entry.target);
-             
-
             }
     })
-},{threshold:0.6,})
+},{threshold:0.2,})
 planets.forEach(planet=>{observer.observe(planet);})

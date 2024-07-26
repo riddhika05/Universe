@@ -423,18 +423,6 @@ li:hover
 
 }
 
-@keyframes bounce {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-50px);
-    }
-    0%{
-        transform: translate(0);
-    }
-    
-}
 .container {
     position: relative;
     top: -3000px;
@@ -670,10 +658,26 @@ li:hover
     position: relative;
     bottom: -300px;
     margin-bottom: 50px;
-
-
-
 }
+.ve_card1.show
+{
+  animation:flips 2s ease-in;
+}
+.ve_card2.show
+{
+    animation:flips 2s ease-in;
+}
+@keyframes flips {
+    from
+    {
+        transform: rotateY(130deg);
+    }
+    to
+    {
+        transform: rotateY(0deg);
+    }
+}
+
 
 .ve_card_head1 {
     font-family: "Orbitron";
