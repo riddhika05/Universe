@@ -1240,8 +1240,8 @@ li:hover
     position: relative;
     /* bottom: -1000px; */
     margin-top: 500px;
-    top: -590px;
-    right: -520px;
+    top: -500px;
+    right: -40px;
      color: #FFFFFF;
     font-family: "Orbitron";
     font-size: 32px;
@@ -1266,6 +1266,7 @@ input {
     color: #000000;
     position: relative;
     border-radius: 40px;
+    top:-570px;
 }
 
 input:focus {
