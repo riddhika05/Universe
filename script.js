@@ -20,5 +20,5 @@ function rem()
     popup.classList.remove('active');
 }
 subs.addEventListener('click', pop);
-subs.addEventListener('mouseout', rem);
+popup.addEventListener('mouseout', rem);
 
