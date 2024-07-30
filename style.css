@@ -1380,6 +1380,12 @@ a:visited
     {
       zoom:11%;
     }
+    .subscribe
+    {
+        position: relative;
+        top:-590px;
+        right:-530px;
+    }
   }
   @media  screen and (max-width:320px) {
     body
